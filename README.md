@@ -55,39 +55,37 @@ The models were evaluated on an unseen test set ($n = 927$).
 
 **Conclusion:** Naive Bayes significantly outperformed KNN in accuracy, resource efficiency, and prediction balance. KNN showed a tendency to "catch all" spam (high recall) but suffered from a high false-positive rate (low precision).
 
-📂 Project Structure
+## 📂 Project Structure
 
-├── app.py                      # Streamlit application source code
-├── nb_model.joblib             # Pre-trained Naive Bayes model
-├── knn_model.joblib            # Pre-trained KNN model
-├── requirements.txt            # Project dependencies
-└── README.md                   # Documentation
+```text
+├── app.py              # Streamlit application source code
+├── nb_model.joblib     # Pre-trained Naive Bayes model
+├── knn_model.joblib    # Pre-trained KNN model
+├── requirements.txt    # Project dependencies
+└── README.md           # Documentation
+```
 
+### 🚀 Installation & Usage
 
-🚀 Installation & Usage
+1. **Clone the repository:** 
+   Truy cập vào [GitHub Repository](https://github.com/dangminhquandk/Email_Spam_Classification.git)
+2. **Install dependencies:**
 
-Clone the repository:
-
-git clone https://github.com/dangminhquandk/Email_Spam_Classification.git
-cd Email_Spam_Classification
-
-
-Install dependencies:
-
+```text
 pip install -r requirements.txt
+```
 
-
-Run the App:
-
+3. **Run the App:**
+```text
 streamlit run app.py
+```
 
+## 👥 Contributors (Group G29)
 
-👥 Contributors (Group G29)
+**Đặng Minh Quân** - 202416323 (Naive Bayes Research, Model Evaluation)
 
-Đặng Minh Quân - 202416323 (Naive Bayes Research, Model Evaluation)
+**Lê Quang Phúc** - 202416316 (Data Preprocessing, KNN Algorithm)
 
-Lê Quang Phúc - 202416316 (Data Preprocessing, KNN Algorithm)
+**Hồ Sỹ Toà**n - 202416368 (Data Acquisition & Cleaning)
 
-Hồ Sỹ Toàn - 202416368 (Data Acquisition & Cleaning)
-
-Hoàng Đặng Xuân Mỹ - 202416295 (Comparative Analysis & Reporting)
+**Hoàng Đặng Xuân Mỹ** - 202416295 (Comparative Analysis & Reporting)
