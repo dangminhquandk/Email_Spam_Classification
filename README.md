@@ -84,7 +84,7 @@ streamlit run app.py
 
 ## 👥 Contributors (Group G29)
 
-**Đặng Minh Quân** - 202416323 (Naive Bayes Research, Model Evaluation)
+**Đặng Minh Quân** - 202416323 (Naive Bayes Research, Model Evaluation & Cleaning)
 
 **Lê Quang Phúc** - 202416316 (Data Preprocessing, KNN Algorithm)
 
