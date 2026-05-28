@@ -68,15 +68,17 @@ The models were evaluated on an unseen test set ($n = 927$).
 ### 🚀 Installation & Usage
 
 1. **Clone the repository:** 
-   Truy cập vào [GitHub Repository](https://github.com/dangminhquandk/Email_Spam_Classification.git)
+```Bash
+git clone https://github.com/dangminhquandk/Email_Spam_Classification.git
+cd Email_Spam_Classification
+```
 2. **Install dependencies:**
-
-```text
+```bash
 pip install -r requirements.txt
 ```
 
 3. **Run the App:**
-```text
+```bash
 streamlit run app.py
 ```
 
